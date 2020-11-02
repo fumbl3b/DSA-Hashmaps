@@ -28,7 +28,7 @@ function main() {
 
 }
 
-const WhatDoesThisDo = function(){
+function whatDoesThisDo() {
   let str1 = 'Hello World.';
   let str2 = 'Hello World.';
   let map1 = new HashMap();
@@ -44,4 +44,5 @@ const WhatDoesThisDo = function(){
   console.log(map2.get(str3));
 }
 
-WhatDoesThisDo();
+
+whatDoesThisDo();
